@@ -1,8 +1,29 @@
 <mat-toolbar color="primary">
-    <div><a mat-button ="">home</a></div>
+    <span>
+      <a routerLink="" mat-button>
+        <mat-icon>library_books</mat-icon> AngularBooks
+      </a>
+    </span>
+  
     <div>
-        <a mat-button routerLink="/books/create" >create book</a>
+      <a mat-button routerLink="books/filter">
+        <mat-icon>search</mat-icon>Search books</a>
     </div>
-    <div><a mat-button="">Author</a></div>
-    <div><a mat-button="">Publisher</a></div>
-</mat-toolbar>
+  
+    <div>
+      <a mat-button routerLink="genres"> Genres </a>
+    </div>
+  
+    <div>
+      <a mat-button routerLink="authors"> Authors </a>
+    </div>
+  
+    <div>
+      <a mat-button routerLink="bookpublishers"> Book Publishers </a>
+    </div>
+  
+    <div>
+      <a mat-button routerLink="books/create"> Create Book </a>
+    </div>
+  </mat-toolbar>
+  

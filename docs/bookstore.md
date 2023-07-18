@@ -1,22 +1,39 @@
-table
-[
-    -book
-][
-    id
-    title
-    price
-    ISbn
-    date
-]
-    -author
+tables
+    -books
+    -authors
+    -publishers
+    -genres
+
+Books 
     [
-        id
-        fName
-        lName
+    -bookId
+    -title
+    -totalPages
+    -rating
+    -isbn
+    -publishedDate
+    -PublishedId[publisherName]
+    -authorId[authorName]
+    -genreId[genreName]
     ]
-    -publisher
-    [
-        id
-        name
-    ]
-    
+
+Authors 
+     [
+    -authorId
+    -fullName
+    -age
+    -birthDate
+     ]
+
+Publishers
+        [
+            -publisherId
+            -publisherName
+            -country
+        ]
+
+Genres
+        [
+          -genreId
+          -genreName
+        ]
