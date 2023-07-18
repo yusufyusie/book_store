@@ -1,0 +1,22 @@
+table
+[
+    -book
+][
+    id
+    title
+    price
+    ISbn
+    date
+]
+    -author
+    [
+        id
+        fName
+        lName
+    ]
+    -publisher
+    [
+        id
+        name
+    ]
+    
