@@ -9,6 +9,7 @@ Books
     -bookId
     -title
     -totalPages
+    -price
     -rating
     -isbn
     -publishedDate

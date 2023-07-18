@@ -22,6 +22,7 @@ export class FormBookComponent implements OnInit {
     this.form = this.formBuilder.group({
       title: [''],
       isbn: '',
+      price:'',
       totalPages: '',
       publishedDate: '',
       rating: '',

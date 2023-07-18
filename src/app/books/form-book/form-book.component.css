@@ -1,5 +1,6 @@
 form {
     max-width: 500px;
+    margin-left: 2.5rem;
 }
 
 mat-form-field {
@@ -8,8 +9,4 @@ mat-form-field {
 
 button {
     margin-right: 1rem;
-}
-
-.checkbox-container{
-    margin-bottom: 1rem;
 }
